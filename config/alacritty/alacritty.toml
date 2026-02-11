@@ -45,44 +45,51 @@ blink_interval = 500
 hide_when_typing = true
 
 
+# ----------------------------
+# Nord Color Scheme
+# ----------------------------
+
 [colors.primary]
-background = "#162728"   # dark Everforest background
-foreground = "#D3C6AA"   # light text
+background = "#2E3440" # nord0
+foreground = "#D8DEE9" # nord4
 
 # Normal colors
 [colors.normal]
-black   = "#2B3339"
-red     = "#E67E80"
-green   = "#A7C080"
-yellow  = "#DBBC7F"
-blue    = "#7FBBB3"
-magenta = "#D699B6"
-cyan    = "#7FBBB3"
-white   = "#D3C6AA"
+black   = "#3B4252" # nord1
+red     = "#BF616A" # nord11
+green   = "#A3BE8C" # nord14
+yellow  = "#EBCB8B" # nord13
+blue    = "#81A1C1" # nord9
+magenta = "#B48EAD" # nord15
+cyan    = "#88C0D0" # nord8
+white   = "#E5E9F0" # nord5
 
 # Bright colors
 [colors.bright]
-black   = "#5C6773"
-red     = "#E67E80"
-green   = "#A7C080"
-yellow  = "#DBBC7F"
-blue    = "#7FBBB3"
-magenta = "#D699B6"
-cyan    = "#7FBBB3"
-white   = "#F0E7D3"
+black   = "#4C566A" # nord3
+red     = "#BF616A"
+green   = "#A3BE8C"
+yellow  = "#EBCB8B"
+blue    = "#81A1C1"
+magenta = "#B48EAD"
+cyan    = "#8FBCBB" # nord7
+white   = "#ECEFF4" # nord6
 
 # Cursor colors
 [colors.cursor]
-text   = "#2B3339"
-cursor = "#D3C6AA"
+text   = "#2E3440"
+cursor = "#D8DEE9"
 
 # Selection colors
 [colors.selection]
-text       = "#D3C6AA"
-background = "#3B4448"
+text       = "#2E3440"
+background = "#88C0D0"
 
-# Transparency (opacity)
+
+# ----------------------------
 # Key bindings
+# ----------------------------
+
 [[keyboard.bindings]]
 key = "V"
 mods = "Control|Shift"

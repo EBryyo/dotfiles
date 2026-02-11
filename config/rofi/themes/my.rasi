@@ -1,23 +1,24 @@
 /* vim: set filetype=css : */
 
-/* everblush */
+/* nord */
 * {
-  bg-col: #00000085;
-  bg-col-light: #1e2229;
-  border-col: #9f9f9f99;
+  bg-col: #2e3440cc;        /* nord0 (with transparency) */
+  bg-col-light: #3b4252;   /* nord1 */
+  border-col: #4c566acc;   /* nord3 */
   transparent: #00000000;
-  selected-col: #1e2229;
-  blue: #81a2be;
-  cyan: #8abeb7;
-  green: #b5bd68;
-  magenta: #b294bb;
-  red: #cc6666;
-  yellow: #f0c674;
-  hoverbutton: #3b6c80;
-  fg-col: #c4c5c8;
-  fg-col2: #f8f8f8;
-  grey: #38474a;
+  selected-col: #3b4252;   /* nord1 */
+  blue: #81a1c1;           /* nord9 */
+  cyan: #88c0d0;           /* nord8 */
+  green: #a3be8c;          /* nord14 */
+  magenta: #b48ead;        /* nord15 */
+  red: #bf616a;            /* nord11 */
+  yellow: #ebcb8b;         /* nord13 */
+  hoverbutton: #434c5e;    /* nord2 */
+  fg-col: #d8dee9;         /* nord4 */
+  fg-col2: #eceff4;        /* nord6 */
+  grey: #4c566a;           /* nord3 */
   width: 400;
-  placeholder-color: #808080;
-placeholder-text: "...";
+  placeholder-color: #616e88; /* nord10-ish */
+  placeholder-text: "...";
 }
+
