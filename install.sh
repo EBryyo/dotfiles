@@ -11,6 +11,7 @@ link() {
     SIMLINK_SRC="$PWD/config/$(echo $FILE | cut --delimiter=/ --fields=3)"
     echo "linking path '$SIMLINK_SRC' to '$SIMLINK_DEST'"
     unlink $SIMLINK_DEST
+    rm -rf $SIMLINK_DEST
     ln -s "$SIMLINK_SRC" "$SIMLINK_DEST"
   done
 }
