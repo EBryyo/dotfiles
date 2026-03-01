@@ -17,5 +17,7 @@ link() {
 }
 
 ln -s "$PWD/wallpapers" "/home/$USER/Pictures/wallpapers"
+rm -rf "/home/$USER/.zshrc"
+ln -s "$PWD/.zshrc" "/home/$USER/.zshrc"
 
 link

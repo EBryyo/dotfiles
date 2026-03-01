@@ -57,7 +57,7 @@
         "position": "bottom",
         "screenOverrides": [
         ],
-        "showCapsule": true,
+        "showCapsule": false,
         "showOutline": false,
         "useSeparateOpacity": false,
         "widgets": {
@@ -91,6 +91,12 @@
                     "id": "Clock",
                     "tooltipFormat": "HH:mm ddd, MMM dd",
                     "useCustomFont": false
+                },
+                {
+                    "colorName": "primary",
+                    "hideWhenIdle": false,
+                    "id": "AudioVisualizer",
+                    "width": 100
                 },
                 {
                     "compactMode": true,
@@ -129,7 +135,7 @@
                     "iconScale": 0.7,
                     "id": "Taskbar",
                     "maxTaskbarWidth": 60,
-                    "onlyActiveWorkspaces": false,
+                    "onlyActiveWorkspaces": true,
                     "onlySameOutput": true,
                     "showPinnedApps": true,
                     "showTitle": false,
@@ -167,6 +173,15 @@
                     "textColor": "none",
                     "useFixedWidth": false,
                     "visualizerType": "wave"
+                },
+                {
+                    "deviceNativePath": "__default__",
+                    "displayMode": "graphic-clean",
+                    "hideIfIdle": false,
+                    "hideIfNotDetected": true,
+                    "id": "Battery",
+                    "showNoctaliaPerformance": false,
+                    "showPowerProfiles": false
                 },
                 {
                     "hideWhenZero": false,
@@ -223,6 +238,13 @@
                         "videoSource": "portal"
                     },
                     "id": "plugin:screen-recorder"
+                },
+                {
+                    "displayMode": "forceOpen",
+                    "iconColor": "none",
+                    "id": "KeyboardLayout",
+                    "showIcon": true,
+                    "textColor": "none"
                 }
             ]
         }
@@ -426,7 +448,7 @@
         "radiusRatio": 1,
         "reverseScroll": false,
         "scaleRatio": 1,
-        "screenRadiusRatio": 1.06,
+        "screenRadiusRatio": 0.81,
         "shadowDirection": "bottom_right",
         "shadowOffsetX": 2,
         "shadowOffsetY": 3,
@@ -464,7 +486,7 @@
     "network": {
         "airplaneModeEnabled": false,
         "bluetoothDetailsViewMode": "grid",
-        "bluetoothHideUnnamedDevices": false,
+        "bluetoothHideUnnamedDevices": true,
         "bluetoothRssiPollIntervalMs": 60000,
         "bluetoothRssiPollingEnabled": false,
         "disableDiscoverability": false,
@@ -474,7 +496,7 @@
     "nightLight": {
         "autoSchedule": true,
         "dayTemp": "6500",
-        "enabled": false,
+        "enabled": true,
         "forced": false,
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
