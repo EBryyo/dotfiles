@@ -1,0 +1,88 @@
+# ----------------------------
+# Shell
+# ----------------------------
+shell /bin/zsh
+
+# ----------------------------
+# Window
+# ----------------------------
+window_padding_width 10
+hide_window_decorations yes
+background_opacity 0.80
+dynamic_background_opacity yes
+remember_window_size no
+initial_window_width 100c
+initial_window_height 30c
+
+# Kitty does not have a direct "startup_mode = Maximized"
+# Use your window manager to force maximized
+# OR enable this:
+# start_maximized yes   (if your kitty version supports it)
+
+# ----------------------------
+# Scrolling
+# ----------------------------
+scrollback_lines 10000
+wheel_scroll_multiplier 3.0
+
+# ----------------------------
+# Font
+# ----------------------------
+font_family JetBrains Mono
+bold_font JetBrains Mono Bold
+italic_font JetBrains Mono Italic
+font_size 8.0
+
+# ----------------------------
+# Cursor
+# ----------------------------
+cursor_shape block
+cursor_blink_interval 0.5
+
+# ----------------------------
+# Mouse
+# ----------------------------
+mouse_hide_wait 0.0
+
+# ----------------------------
+# Nord Color Scheme
+# ----------------------------
+
+# Primary (you didn’t define background/foreground in Alacritty,
+# so kitty will use defaults unless you set them)
+
+# Normal colors
+color0  #3B4252
+color1  #BF616A
+color2  #A3BE8C
+color3  #EBCB8B
+color4  #81A1C1
+color5  #B48EAD
+color6  #88C0D0
+color7  #E5E9F0
+
+# Bright colors
+color8  #4C566A
+color9  #BF616A
+color10 #A3BE8C
+color11 #EBCB8B
+color12 #81A1C1
+color13 #B48EAD
+color14 #8FBCBB
+color15 #ECEFF4
+
+# Cursor
+cursor #D8DEE9
+cursor_text_color #2E3440
+
+# Selection
+selection_foreground #2E3440
+selection_background #88C0D0
+
+# ----------------------------
+# Key bindings
+# ----------------------------
+
+map ctrl+shift+v paste_from_clipboard
+map ctrl+shift+c copy_to_clipboard
+map ctrl+shift+n new_window
