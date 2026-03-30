@@ -24,6 +24,9 @@ return {
 
       -- Rust
       rust_analyzer = {},
+
+      -- Typst
+      tinymist = {},
     },
   },
 }

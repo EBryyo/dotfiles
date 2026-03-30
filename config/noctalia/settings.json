@@ -12,17 +12,18 @@
         "enableSessionSearch": true,
         "enableSettingsSearch": true,
         "enableWindowsSearch": true,
-        "iconMode": "tabler",
+        "iconMode": "native",
         "ignoreMouseInput": false,
         "overviewLayer": false,
         "pinnedApps": [
+            "jetbrains-idea"
         ],
-        "position": "center",
+        "position": "follow_bar",
         "screenshotAnnotationTool": "",
-        "showCategories": true,
+        "showCategories": false,
         "showIconBackground": false,
         "sortByMostUsed": true,
-        "terminalCommand": "alacritty -e",
+        "terminalCommand": "kitty -e",
         "useApp2Unit": false,
         "viewMode": "list"
     },
@@ -43,7 +44,7 @@
         "barType": "simple",
         "capsuleColorKey": "none",
         "capsuleOpacity": 1,
-        "density": "default",
+        "density": "compact",
         "displayMode": "always_visible",
         "floating": false,
         "frameRadius": 12,
@@ -128,19 +129,6 @@
                     "showIcon": true,
                     "textColor": "none",
                     "useFixedWidth": false
-                },
-                {
-                    "colorizeIcons": true,
-                    "hideMode": "hidden",
-                    "iconScale": 0.7,
-                    "id": "Taskbar",
-                    "maxTaskbarWidth": 60,
-                    "onlyActiveWorkspaces": true,
-                    "onlySameOutput": true,
-                    "showPinnedApps": true,
-                    "showTitle": false,
-                    "smartWidth": true,
-                    "titleWidth": 120
                 }
             ],
             "right": [
@@ -176,12 +164,12 @@
                 },
                 {
                     "deviceNativePath": "__default__",
-                    "displayMode": "graphic-clean",
+                    "displayMode": "graphic",
                     "hideIfIdle": false,
                     "hideIfNotDetected": true,
                     "id": "Battery",
-                    "showNoctaliaPerformance": false,
-                    "showPowerProfiles": false
+                    "showNoctaliaPerformance": true,
+                    "showPowerProfiles": true
                 },
                 {
                     "hideWhenZero": false,
@@ -245,13 +233,23 @@
                     "id": "KeyboardLayout",
                     "showIcon": true,
                     "textColor": "none"
+                },
+                {
+                    "defaultSettings": {
+                        "enableTodoIntegration": false,
+                        "notecardsEnabled": true,
+                        "pincardsEnabled": true,
+                        "position": "Bottom",
+                        "showCloseButton": false
+                    },
+                    "id": "plugin:clipper"
                 }
             ]
         }
     },
     "brightness": {
         "brightnessStep": 5,
-        "enableDdcSupport": false,
+        "enableDdcSupport": true,
         "enforceMinimum": true
     },
     "calendar": {
@@ -299,7 +297,7 @@
                 "id": "brightness-card"
             },
             {
-                "enabled": true,
+                "enabled": false,
                 "id": "weather-card"
             },
             {
@@ -404,11 +402,11 @@
         "animationDisabled": false,
         "animationSpeed": 2,
         "autoStartAuth": false,
-        "avatarImage": "",
+        "avatarImage": "/home/avery/Pictures/Screenshots/2026-03-23-235536_hyprshot.png",
         "boxRadiusRatio": 1,
         "clockFormat": "hh\\nmm",
-        "clockStyle": "custom",
-        "compactLockScreen": false,
+        "clockStyle": "digital",
+        "compactLockScreen": true,
         "dimmerOpacity": 0.2,
         "enableLockScreenCountdown": true,
         "enableShadows": true,
@@ -439,15 +437,15 @@
         },
         "language": "",
         "lockOnSuspend": true,
-        "lockScreenAnimations": false,
-        "lockScreenBlur": 0,
+        "lockScreenAnimations": true,
+        "lockScreenBlur": 1,
         "lockScreenCountdownDuration": 10000,
         "lockScreenMonitors": [
         ],
         "lockScreenTint": 0,
         "radiusRatio": 1,
         "reverseScroll": false,
-        "scaleRatio": 1,
+        "scaleRatio": 0.9,
         "screenRadiusRatio": 0.81,
         "shadowDirection": "bottom_right",
         "shadowOffsetX": 2,
@@ -455,7 +453,7 @@
         "showChangelogOnStartup": true,
         "showHibernateOnLockScreen": false,
         "showScreenCorners": false,
-        "showSessionButtonsOnLockScreen": true,
+        "showSessionButtonsOnLockScreen": false,
         "telemetryEnabled": false
     },
     "hooks": {
@@ -624,15 +622,19 @@
             },
             {
                 "enabled": true,
-                "id": "discord"
-            },
-            {
-                "enabled": true,
                 "id": "hyprland"
             },
             {
                 "enabled": true,
                 "id": "alacritty"
+            },
+            {
+                "enabled": true,
+                "id": "discord"
+            },
+            {
+                "enabled": true,
+                "id": "cava"
             }
         ],
         "enableUserTheming": false

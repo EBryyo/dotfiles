@@ -1,0 +1,14 @@
+2026/03/25-00:37:13.675 dec Reusing MANIFEST /home/avery/.config/vesktop/sessionData/WebStorage/3/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/03/25-00:37:13.676 dec Recovering log #34
+2026/03/25-00:37:13.676 dec Reusing old log /home/avery/.config/vesktop/sessionData/WebStorage/3/IndexedDB/indexeddb.leveldb/000034.log 
+2026/03/25-00:37:13.676 dec Delete type=2 #32
+2026/03/25-00:37:13.686 e1d Level-0 table #39: started
+2026/03/25-00:37:13.687 e1d Level-0 table #39: 1395 bytes OK
+2026/03/25-00:37:13.690 e1d Delete type=0 #34
+2026/03/25-00:37:13.690 dec Manual compaction at level-0 from '\x00\x0d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0d\x00\x00\x05' @ 469 : 1
+2026/03/25-00:37:13.690 dec Compacting 1@0 + 1@1 files
+2026/03/25-00:37:13.691 dec Generated table #40@0: 75 keys, 1388 bytes
+2026/03/25-00:37:13.692 dec Compacted 1@0 + 1@1 files => 1388 bytes
+2026/03/25-00:37:13.693 dec compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/25-00:37:13.694 dec Delete type=2 #39
+2026/03/25-00:37:13.694 dec Manual compaction at level-0 from '\x00\x0d\x00\x00\x05' @ 469 : 1 .. '\x00\x0e\x00\x00\x00' @ 0 : 0; will stop at (end)

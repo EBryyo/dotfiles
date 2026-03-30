@@ -1,0 +1,7 @@
+2026/03/25-01:11:25.134 e1d Reusing MANIFEST /home/avery/.config/vesktop/sessionData/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2026/03/25-01:11:25.134 e1d Recovering log #3
+2026/03/25-01:11:25.135 e1d Reusing old log /home/avery/.config/vesktop/sessionData/WebStorage/2/IndexedDB/indexeddb.leveldb/000003.log 
+2026/03/25-01:11:30.373 e1c Level-0 table #5: started
+2026/03/25-01:11:30.377 e1c Level-0 table #5: 109670 bytes OK
+2026/03/25-01:11:30.380 e1c Delete type=0 #3
+2026/03/25-01:11:30.380 e1c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
